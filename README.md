@@ -5,7 +5,7 @@ This repository is used to track *all* software or configuration changes deploye
 ## Provisioning
 
 1. Boot up a new Ubuntu-based server. A LTS version is **strongly recommended**
-ssh r2. Open an network firewall ports if applicable and copy your public key to the root user on the server
+2. Open any applicable network firewall ports and copy your public key to the root user on the server
 3. From your local machine, run `./install.sh`
 
 ## Deploying
