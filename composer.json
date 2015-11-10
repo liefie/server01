@@ -1,0 +1,11 @@
+{
+    "name": "adamnicholson/server01",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Nicholson",
+            "email": "adamnicholson10@gmail.com"
+        }
+    ],
+    "require": {}
+}
