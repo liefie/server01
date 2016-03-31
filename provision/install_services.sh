@@ -22,6 +22,9 @@ sudo cp /root/provision/etc/nginx/nginx.conf /etc/nginx/nginx.conf
 sudo rm /opt -R
 sudo cp /root/provision/opt /opt -R
 
+# Install Crontab
+sudo crontab /root/provision/provision/crontab
+
 # Install build tools
 sudo wget -O /usr/local/bin/composer https://getcomposer.org/composer.phar
 sudo chmod +x /usr/local/bin/composer
